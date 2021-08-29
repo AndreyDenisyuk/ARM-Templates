@@ -5,7 +5,7 @@
     "functions": [],
     "variables": {},
     "resources": [{
-        "name": "vnfylhtq",
+        "name": "[uniqueString(resourceGroup().id)]",
         "type": "Microsoft.Network/virtualNetworks",
         "apiVersion": "2019-11-01",
         "location": "[resourceGroup().location]",
